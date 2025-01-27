@@ -1,0 +1,106 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Développeur</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        header, footer {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+        }
+        nav {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+        }
+        nav a {
+            color: #3498db;
+            text-decoration: none;
+            padding: 0.5em 0;
+        }
+        main {
+            padding: 1em;
+        }
+        .project {
+            border: 1px solid #bdc3c7;
+            margin-bottom: 1em;
+            padding: 1em;
+            border-radius: 5px;
+            background-color: #ecf0f1;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+        form input, form textarea {
+            margin-bottom: 1em;
+            padding: 0.5em;
+            border: 1px solid #bdc3c7;
+            border-radius: 5px;
+        }
+        @media (min-width: 768px) {
+            nav {
+                flex-direction: row;
+                justify-content: center;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Portfolio Développeur</h1>
+    <nav>
+        <a href="#presentation">Présentation</a>
+        <a href="#projects">Projets</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<main>
+    <section id="presentation">
+        <h2>Présentation</h2>
+        <p>Je suis un développeur spécialisé dans les technologies React, TypeScript, et Node.js.</p>
+    </section>
+
+    <section id="projects">
+        <h2>Projets</h2>
+        <div class="project">
+            <h3>Projet GitHub 1</h3>
+            <p>Détails du projet 1...</p>
+            <a href="https://github.com/nom-utilisateur/projet1" target="_blank">Voir sur GitHub</a>
+        </div>
+        <div class="project">
+            <h3>Projet GitHub 2</h3>
+            <p>Détails du projet 2...</p>
+            <a href="https://github.com/nom-utilisateur/projet2" target="_blank">Voir sur GitHub</a>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <form action="#" method="post">
+            <input type="text" name="name" placeholder="Nom" required>
+            <input type="email" name="email" placeholder="Email" required>
+            <textarea name="message" placeholder="Message" rows="5" required></textarea>
+            <button type="submit">Envoyer</button>
+        </form>
+    </section>
+</main>
+
+<footer>
+    <p>© 2023 Portefolio Développeur. Tous droits réservés.</p>
+</footer>
+
+</body>
+</html>
