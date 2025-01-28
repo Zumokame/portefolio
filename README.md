@@ -1,0 +1,1 @@
+Un projet simple en HTML,CSS, JS pour me faire un portfolio. Je souhaites le faire evoluer en react avec un CRUD pour la partie "CV" pour qu'il soit utilisé plus facilement. J'aimerais ajouter aussi la gestion de couleur ou de theme.
