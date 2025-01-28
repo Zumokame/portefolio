@@ -34,6 +34,14 @@ if (contactForm) {
     });
 }
 
+// Validation du numéro de téléphone
+function validatePhoneNumber(phoneNumber) {
+    const phoneRegex = /^(0[1-9])[0-9]{8}$/;
+    return phoneRegex.test(phoneNumber);
+}
+
+
+
 // Charger les projets si on est sur la page des projets
 if (window.location.pathname.includes('projets.html')) {
     loadProjects();
