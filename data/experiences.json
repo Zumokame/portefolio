@@ -1,0 +1,31 @@
+{
+  "experience": [
+    {
+      "intitulé": "Chef de projet applicatif / Technicien site",
+      "société": "TechCorp",
+      "date_debut": "2015",
+      "date_fin": "Aujourd'hui",
+      "softskill": ["Service client","Adaptabilité - Organisation"],
+      "divers": [
+        "Veille informatique",
+        " support niveau 1 - 3",
+        "administrateur système et réseaux",
+        "Gestion de parc informatique",
+        "Mise en place et suivi de la planification de la maintenance",
+        "Cybersécurité/LPM : Mise en place et suivi des actions d’amélioration des indicateurs de sécurité",
+        "Suivi de prestations externes",
+        "MEI/MEE"
+      ]
+    }
+  ],
+  "formation": [
+    {
+      "intitulé": "Concepteur Développeur d’Applications ",
+      "société": "O'clock",
+      "date_debut": "2024",
+      "date_fin": "2025",
+      "softskill": "",
+      "divers": "RNCP BAC +3/+4"
+    }
+  ]
+}
